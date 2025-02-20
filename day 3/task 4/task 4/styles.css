@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+    margin: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn{
+    background-color: rgb(215, 215, 48);
+}
