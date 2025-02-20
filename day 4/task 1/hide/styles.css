@@ -1,0 +1,22 @@
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+body{
+    margin:10px;
+   
+}
+.content{
+    margin-top: 10px;
+    margin: 30px;
+    background-color:rgb(237, 229, 229);
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(206, 105, 28);
+    border-radius: 10%;
+    height: 40px;
+    color: white;
+}
