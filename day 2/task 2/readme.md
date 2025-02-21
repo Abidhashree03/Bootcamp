@@ -1,0 +1,1 @@
+I have created a fictional product page using html for structured page and used css to enhance the presentation of a web page .this page includes a product picture with its description and a shop now button 
