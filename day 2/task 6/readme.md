@@ -1,0 +1,1 @@
+I have created a simple registration form which includes email,name,password and date of birth and a submit button after submitting the popup notification will appeare like successfully submitted
