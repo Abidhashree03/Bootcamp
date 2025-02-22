@@ -1,1 +1,1 @@
-
+The String Reversal Script takes a string as a command-line argument and prints its reversed version. To use it, run node reverse_string.js "<your_string>" in the terminal, replacing <your_string> with the actual text. The script ensures proper input handling and outputs the reversed string.
