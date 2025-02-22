@@ -1,1 +1,1 @@
-
+The Sum CLI Application is a Node.js script that takes two numbers as command-line arguments and prints their sum. To use it, run node sum.js <num1> <num2> in the terminal with valid numbers. It includes error handling and is open-source for free use
