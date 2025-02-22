@@ -1,1 +1,1 @@
-
+The File Info Script takes a file path as a command-line argument and prints its size, creation date, and last modified date. To use it, run node file_info.js <file_path> in the terminal, replacing <file_path> with the actual file path. The script ensures the file exists and retrieves its details.
