@@ -1,1 +1,1 @@
-
+The Multiplication Table Script takes a number as a command-line argument and prints its multiplication table up to 10. To use it, run node multiplication_table.js <number> in the terminal, replacing <number> with an actual numeric value. The script ensures valid input and generates the table accordingly.
