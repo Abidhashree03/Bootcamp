@@ -1,1 +1,1 @@
-
+The Object Filtering Script filters an array of objects based on a specific property value, such as users older than a given age. To use it, run node filter_objects.js <age> in the terminal, replacing <age> with a number.
