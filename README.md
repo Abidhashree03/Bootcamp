@@ -19,6 +19,10 @@ This project is a step-by-step learning exercise to build a library website usin
 - Added JavaScript for interactive functionality.
 - Implemented dynamic content rendering and user interactions.
 - Improved user experience with interactive features such as form validation, navigation menus, or search functionality.
+  
+### Day 5:some program (node.js)
+-Run the script using node <script_name>.js with necessary arguments, if any.
+-Each script performs a specific task, like reading files, handling routes, or filtering data.
 
 ## Technologies Used
 - *HTML*: For structuring the web pages.
