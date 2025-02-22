@@ -1,0 +1,1 @@
+The Async Operations Script reads a file, processes its content by converting it to uppercase, and writes the processed content to a new file using promise chaining. To use it, ensure you have input.txt in the same directory and run node async_operations.js. The script handles errors gracefully and logs the success of each operation.
