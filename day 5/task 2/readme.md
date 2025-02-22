@@ -1,1 +1,1 @@
-
+The Even or Odd Script takes a number as a command-line argument and determines whether it is even or odd. To use it, run node even_odd.js <number> in the terminal, replacing <number> with an actual number. The script validates input and prints the result accordingly.
