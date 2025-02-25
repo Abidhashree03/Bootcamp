@@ -6,15 +6,11 @@ const port = 3000;
 app.use(express.json());
 
 const USERS_FILE = 'users.json';
-
-// Read users from JSON file
 const getUsers = () => {
     if (!fs.existsSync(USERS_FILE)) return [];
     const data = fs.readFileSync(USERS_FILE);
     return JSON.parse(data);
 };
-
-// Write users to JSON file
 const saveUsers = (users) => {
     fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2));
 };
@@ -22,13 +18,9 @@ const saveUsers = (users) => {
 app.get('/', (req, res) => {
     res.json({ message: "Hello World" });
 });
-
-// Get all users
 app.get('/users', (req, res) => {
     res.json(getUsers());
 });
-
-// Get user by ID
 app.get('/users/:id', (req, res) => {
     const users = getUsers();
     const userId = parseInt(req.params.id);
@@ -39,8 +31,6 @@ app.get('/users/:id', (req, res) => {
         res.status(404).json({ error: "User not found" });
     }
 });
-
-// Add new user
 app.post('/users', (req, res) => {
     const users = getUsers();
     const newUser = req.body;
@@ -49,8 +39,6 @@ app.post('/users', (req, res) => {
     saveUsers(users);
     res.json({ message: "User added" });
 });
-
-// Update user by ID
 app.put('/users/:id', (req, res) => {
     let users = getUsers();
     const userId = parseInt(req.params.id);
@@ -63,8 +51,6 @@ app.put('/users/:id', (req, res) => {
         res.status(404).json({ error: "User not found" });
     }
 });
-
-// Delete user by ID
 app.delete('/users/:id', (req, res) => {
     let users = getUsers();
     const userId = parseInt(req.params.id);
