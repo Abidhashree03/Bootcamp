@@ -4,11 +4,11 @@ import "./StudentList.css";const StudentCard = ({ student }) => {
   const yearColors = {
     Fresher: "freshman",
     Junior: "junior",
-    Senior: "senior",
+    Sophomore: "Sophomor",
   };
 
   return (
-    <div className={student-card ${yearColors[student.year] || 'default'}}>
+    <div>
       <h2>{student.name}</h2>
       <p>Major: {student.major}</p>
       <p>Year: {student.year}</p>
@@ -29,15 +29,15 @@ const StudentList = ({ students }) => {
 
 // Example Usage
 const studentsData = [
-  { name: "Barnika", major: "Chemistry", year: "Fresher" },
-  { name: "Abidha Shree", major: "Mathematics", year: "Senior" },
-  { name: "John", major: "Physics", year: "Junior" }
+  { name: "Alice Johnson", major: "Chemistry", year: "Fresher" },
+  { name: "Bob Smith", major: "Mathematics", year: "Senior" },
+  { name: "Charlie Brown", major: "Physics", year: "Junior" }
 ];
 
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-8">
-      <h1 className="text-3xl font-bold text-gray-800 mb-6">Student Directory</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">Student list</h1>
       <StudentList students={studentsData} />
     </div>
   );
