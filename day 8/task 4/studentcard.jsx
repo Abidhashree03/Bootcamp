@@ -1,4 +1,4 @@
-export default function HelloWorld() {
+import React from "react";
 import "./StudentCard.css";
 import StudentCard from "./StudentCard";
 export StudentContainer({ name, major, year }) => {
@@ -10,3 +10,4 @@ export StudentContainer({ name, major, year }) => {
     </div>
   );
 }
+export default StudentContainer()
