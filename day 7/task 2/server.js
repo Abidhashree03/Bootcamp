@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/studentdb', {
+mongoose.connect('mongodb://localhost:27017/Abidha shree', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
