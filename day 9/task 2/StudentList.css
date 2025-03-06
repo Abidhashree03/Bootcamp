@@ -1,0 +1,26 @@
+.student-list-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .student-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    background: #4f46e5;
+    color: white;
+    padding: 10px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  .student-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,36 @@
+.student-card {
+    background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+    color: white;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    max-width: 90%;
+  }
+  
+  .student-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-img {
+    width: 100px; /* Increase size */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits properly */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .student-card {
+    background: rgb(218, 140, 186);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
