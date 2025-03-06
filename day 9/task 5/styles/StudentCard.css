@@ -1,0 +1,66 @@
+.student-card {
+  background: rgba(79, 70, 229, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  width: 260px;
+  max-width: 90%;
+  position: relative;
+  overflow: hidden;
+  animation: float 3s infinite ease-in-out;
+}
+
+.student-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 12px 35px rgba(255, 255, 255, 0.2);
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.student-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  animation: glow 1.5s infinite alternate;
+}
+
+/* Glowing Effect */
+@keyframes glow {
+  0% {
+    box-shadow: 0px 0px 10px rgba(147, 51, 234, 0.6);
+  }
+  100% {
+    box-shadow: 0px 0px 20px rgba(147, 51, 234, 1);
+  }
+}
+
+.student-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.student-info {
+  font-size: 14px;
+  opacity: 0.9;
+}
